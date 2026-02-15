@@ -54,7 +54,8 @@ PRODUCT_PACKAGES += \
     android.hardware.automotive.ivn@V1-default-service
 
 # Set car power policy daemon connect to VHAL timeout to 60s for emulator (default is 5s).
-PRODUCT_SYSTEM_PROPERTIES += cppd.connectvhal.Timeoutmillis=60000
+# Use system_ext to allow strict artifact path enforcement. This property is a system_internal_prop.
+PRODUCT_SYSTEM_EXT_PROPERTIES += cppd.connectvhal.Timeoutmillis=60000
 
 # Copy car_core_hardware and overwrite handheld_core_hardware.xml with a disable config.
 # Overwrite goldfish related xml with a disable config.
