@@ -16,6 +16,4 @@
 # Car Rotary Controller for Android Automotive.
 
 PRODUCT_PACKAGES += \
-    CarRotaryController \
-    RotaryPlayground \
-    RotaryIME \
+    CarRotaryController
