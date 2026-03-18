@@ -15,11 +15,6 @@
 
 $(call inherit-product, packages/services/Car/car_product/build/car_vendor.mk)
 
-# Need this for gles libraries to load properly
-# after moving to /vendor/lib/
-PRODUCT_PACKAGES += \
-    vndk-sp
-
 DEVICE_PACKAGE_OVERLAYS := device/generic/goldfish/overlay
 
 PRODUCT_CHARACTERISTICS := emulator
