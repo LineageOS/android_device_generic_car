@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b44bd6bd_cf2cb0f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-18T20:38:44Z",
+      "side": 1,
+      "message": "on AOSP and +2\u0027d, then ghosted.",
+      "revId": "1d1e612854393faa30b6de422716060feb897b37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
