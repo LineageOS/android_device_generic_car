@@ -18,7 +18,7 @@
 
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth-service.default \
-    android.hardware.bluetooth.audio@2.2-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
 
 PRODUCT_COPY_FILES += \
     device/generic/car/emulator/usbpt/bluetooth/vendor.qemu.preferred.bt.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qemu.preferred.bt.service.rc \
