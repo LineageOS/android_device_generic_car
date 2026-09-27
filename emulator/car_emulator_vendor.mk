@@ -161,6 +161,7 @@ $(call soong_config_set_bool,emulated_camera,use_emulated_camera2_hal_auto,$(USE
 ifeq ($(USE_EMULATED_CAMERA2_HAL_AUTO), true)
 ENABLE_CAMERA_SERVICE := true
 
+PRODUCT_SOONG_NAMESPACES += hardware/google/camera/devices/EmulatedCamera
 PRODUCT_PACKAGES += com.google.emulated.camera.provider.hal
 
 PRODUCT_COPY_FILES += \
